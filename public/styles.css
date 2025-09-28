@@ -157,23 +157,10 @@ html, body {
     color: var(--lego-dark);
 }
 
-/* Studs on top of cards */
 .studs {
     display: none; /* This will hide the studs */
 }
 
-.stud {
-    height: 20px;
-    border-radius: 999px;
-    background: #f1f5f9;
-    box-shadow: var(--shadow-stud);
-}
-
-/* Pastel brick card variations */
-.brick-card:nth-child(1) {
-    background: #FFD783; /* Warm creamy yellow */
-    border-color: #000000;
-}
 
 .brick-card:nth-child(1) h3,
 .brick-card:nth-child(1) p {
@@ -282,6 +269,12 @@ html, body {
     background: rgba(255, 255, 255, 0.95);
     box-shadow: var(--shadow-stud), 0 1px 3px rgba(0,0,0,0.15);
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Pastel brick card variations */
+.brick-card:nth-child(1) {
+    background: #FFFF00; /* Bright yellow */
+    border-color: #000000;
 }
 
 /* LEGO stud buttons */
