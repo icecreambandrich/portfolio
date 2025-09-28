@@ -221,7 +221,7 @@ html, body {
 }
 
 .brick-card:nth-child(6) {
-    background: #FFD98E;
+    background: #FFD783; /* Warm creamy yellow */
     border-color: #000000;
 }
 
