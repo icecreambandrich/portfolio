@@ -221,7 +221,7 @@ html, body {
 }
 
 .brick-card:nth-child(6) {
-    background: var(--pastel-purple);
+    background: #FFD98E;
     border-color: #000000;
 }
 
